@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+
+    "name": "HH Hide Helper",
+    "description": "This extension will auto hide any accept or reject thingys, made by Tristan to help HH mods",
+    "version": "1.0",
+    "content_scripts": [{
+        "matches": ["*://*.facebook.com/*"],
+        "js": ["background.js"]
+    }]
+}
